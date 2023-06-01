@@ -2,7 +2,6 @@ name: PR MAIN
 on:
   push:
     branches: main
-    paths: 'sub-project/**'
 jobs:
   CI:
     runs-on: ubuntu-latest
